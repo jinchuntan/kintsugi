@@ -128,3 +128,18 @@ export interface AuditRun {
   x402Simulation: X402Simulation;
   report: ImpactReport;
 }
+
+export interface VisionFinding {
+  title: string;
+  category: string;
+  severity: Severity;
+  detail: string;
+  estimatedMonthlyCostUsd: number;
+  repairSuggestion: string;
+}
+
+export interface VisionAnalysisResult {
+  mocked: boolean;
+  summary: string;
+  findings: VisionFinding[];
+}
