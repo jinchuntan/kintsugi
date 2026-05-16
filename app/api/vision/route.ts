@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { generateVisionAnalysis, getAiProviderMode } from "@/lib/ai/provider";
 import type { VisionAnalysisResult, VisionFinding } from "@/lib/types";
 
+export const maxDuration = 30;
+
 export async function POST(request: NextRequest) {
   const body = (await request.json().catch(() => ({}))) as {
     image?: string;
