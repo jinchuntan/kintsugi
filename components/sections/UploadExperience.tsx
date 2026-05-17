@@ -71,7 +71,7 @@ export function UploadExperience() {
             </span>
             <div>
               <h2 className="text-lg font-semibold text-ink">Demo samples</h2>
-              <p className="text-sm text-graphite">Choose the story you want to present in the hackathon demo.</p>
+              <p className="text-sm text-graphite">Choose the software waste scenario you want to explore.</p>
             </div>
           </div>
 

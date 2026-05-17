@@ -38,9 +38,6 @@ export function LandingPage() {
         />
         <div className="relative mx-auto flex min-h-[76svh] max-w-7xl items-center px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
           <div className="max-w-3xl text-white">
-            <p className="mb-5 inline-flex rounded-md border border-white/24 bg-white/12 px-3 py-1 text-sm font-semibold backdrop-blur [text-shadow:0_1px_12px_rgb(0_0_0_/_0.3)]">
-              AI Agent Olympics Hackathon MVP
-            </p>
             <h1 className="break-anywhere text-4xl font-semibold [text-shadow:0_2px_22px_rgb(0_0_0_/_0.42)] sm:text-6xl lg:text-7xl">
               KintsugiOps AI
             </h1>

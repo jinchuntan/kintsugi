@@ -115,7 +115,7 @@ export function ImpactReportExperience() {
           <div className="flex flex-col gap-3 border-b border-ink/10 p-5 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <h2 className="text-lg font-semibold text-ink">Markdown report</h2>
-              <p className="text-sm text-graphite">Exportable repair plan for stakeholders and hackathon judges.</p>
+              <p className="text-sm text-graphite">Exportable repair plan for stakeholders and technical reviewers.</p>
             </div>
             <div className="flex flex-wrap gap-2">
               <button
