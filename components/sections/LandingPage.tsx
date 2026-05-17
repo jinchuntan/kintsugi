@@ -31,17 +31,23 @@ export function LandingPage() {
         className="relative min-h-[76svh] bg-cover bg-center"
         style={{ backgroundImage: "url('/hero-kintsugiops.png')" }}
       >
-        <div className="absolute inset-0 bg-ink/52" aria-hidden />
+        <div className="absolute inset-0 bg-ink/30" aria-hidden />
+        <div
+          className="absolute inset-0 bg-[linear-gradient(90deg,rgba(31,41,51,0.84)_0%,rgba(31,41,51,0.72)_34%,rgba(31,41,51,0.34)_64%,rgba(31,41,51,0.08)_100%)]"
+          aria-hidden
+        />
         <div className="relative mx-auto flex min-h-[76svh] max-w-7xl items-center px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
           <div className="max-w-3xl text-white">
-            <p className="mb-5 inline-flex rounded-md border border-white/24 bg-white/12 px-3 py-1 text-sm font-semibold backdrop-blur">
+            <p className="mb-5 inline-flex rounded-md border border-white/24 bg-white/12 px-3 py-1 text-sm font-semibold backdrop-blur [text-shadow:0_1px_12px_rgb(0_0_0_/_0.3)]">
               AI Agent Olympics Hackathon MVP
             </p>
-            <h1 className="break-anywhere text-4xl font-semibold sm:text-6xl lg:text-7xl">KintsugiOps AI</h1>
-            <p className="mt-6 max-w-2xl text-xl leading-8 text-white/88">
+            <h1 className="break-anywhere text-4xl font-semibold [text-shadow:0_2px_22px_rgb(0_0_0_/_0.42)] sm:text-6xl lg:text-7xl">
+              KintsugiOps AI
+            </h1>
+            <p className="mt-6 max-w-2xl text-xl leading-8 text-white/92 [text-shadow:0_2px_18px_rgb(0_0_0_/_0.38)]">
               Repair software waste before it becomes cloud waste.
             </p>
-            <p className="mt-5 max-w-2xl text-base leading-7 text-white/82">
+            <p className="mt-5 max-w-2xl text-base leading-7 text-white/88 [text-shadow:0_2px_16px_rgb(0_0_0_/_0.36)]">
               Inspired by kintsugi, the product finds cracks in software workflows and turns them into measurable cost,
               performance, and carbon repairs.
             </p>
